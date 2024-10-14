@@ -1,4 +1,4 @@
-import './button.css'
+import './Button.css'
 
 
 interface ButtonProps {
@@ -7,7 +7,7 @@ interface ButtonProps {
 }
 
 
-function myButton({ text, className}: ButtonProps ) {
+function MyButton({ text, className}: ButtonProps ) {
     return (
         <div className={`button-container ${className}`}>
             <button className="button-child">{text}</button>
@@ -15,4 +15,4 @@ function myButton({ text, className}: ButtonProps ) {
     )
 }
 
-export default myButton
+export default MyButton
