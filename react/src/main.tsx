@@ -1,12 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import MyButton from './Button.tsx';
+import Stateful from './Stateful/Stateful.tsx';
+import Stateless from './Stateless/Stateless.tsx';
 import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
-    <MyButton text="Click me" className="my-class" />
+    <Stateful />
+    <Stateless />
   </StrictMode>,
 )
