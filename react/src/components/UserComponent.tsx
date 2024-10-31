@@ -40,7 +40,6 @@ function UserComponent() {
             <h2>Інформація про користувача</h2>
             <p>Ім'я: {userData?.name}</p>
             <p>Email: {userData?.email}</p>
-            {/* Додайте інші поля за необхідності */}
             </div>
         )}
         </div>

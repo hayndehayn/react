@@ -16,9 +16,9 @@ function ControlledForm() {
         <>
             <form onSubmit={handleSubmit}>
             <label>
-                Controlled Input:
+                
+            </label>Controlled Input:
                 <input type="text" value={inputValue} onChange={handleChange} />
-            </label>
             <button type="submit">Submit</button>
             </form>
         </>
