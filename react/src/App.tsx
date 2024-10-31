@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import { Home, About, Contact } from './components/Components';
 
